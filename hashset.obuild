@@ -1,0 +1,12 @@
+Name: hashset
+Version: 1.0
+Authors: Jean-Christophe Filliâtre
+License: LGPL-2.1
+Synopsis: Sets as hash tables 
+obuild-ver: 1
+
+# in oflags: -bin-annot isn't supported by OCaml 3.12.1
+Library hashset
+  oflags: -warn-error PU
+  src-dir: .
+  modules: Hashset
