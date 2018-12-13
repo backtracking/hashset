@@ -1,0 +1,14 @@
+opam-version: "2.0"
+synopsis: "Implementation of sets as hash tables"
+maintainer: "Jean-Christophe.Filliatre@lri.fr"
+authors: "Jean-Christophe Filliâtre"
+license: "LGPL-2.1"
+homepage: "https://www.lri.fr/~filliatr/software.en.html"
+bug-reports: "https://github.com/backtracking/hashset/issues"
+depends: [
+  "dune" {build}
+]
+build: make
+install: [make "install"]
+remove: [make "uninstall"]
+dev-repo: "git://github.com/backtracking/hashset.git"
