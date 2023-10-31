@@ -1,4 +1,3 @@
 (library
-  (name hashset)
   (public_name hashset)
   (modules hashset))
