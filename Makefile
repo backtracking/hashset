@@ -1,17 +1,14 @@
 all:
-	obuild configure
-	obuild build lib-hashset
+	dune build @install
 
 doc:
-	mkdir -p doc
-	ocamldoc -d doc/ -html hashset.mli
-
-install: all
-	obuild install
-
-uninstall:
-	ocamlfind -remove hashset
+	dune build @doc
 
 clean:
-	obuild clean
-	rm -rf doc
+	dune clean
+
+install: all
+	dune install
+
+uninstall:
+	dune uninstall
