@@ -8,7 +8,7 @@ maintainer: [
 ]
 authors: ["Jean-Christophe Filliâtre <Jean-Christophe.Filliatre@cnrs.fr>"]
 license: "LGPL-2.1-only"
-homepage: "https://www.lri.fr/~filliatr/software.en.html"
+homepage: "https://github.com/backtracking/hashset"
 bug-reports: "https://github.com/backtracking/hashset/issues"
 depends: [
   "ocaml"
