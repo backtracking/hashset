@@ -1,3 +1,4 @@
-# hashset
+# Hashset
 
-Sets as hash tables by Jean-Christophe Filliatre
+Sets as hash tables
+
